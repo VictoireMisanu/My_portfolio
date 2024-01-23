@@ -1,31 +1,28 @@
 *{
-    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-    
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;    
+}
+
+body{
+    padding: 5px 70px;
 }
 #name{
-    display: flex;
     font-size: 1.5rem;
     font-weight: bolder;
-    flex-direction: row;
-    justify-content: left;
-    justify-items: left;
-
-    
     
 }
-
+#name:hover{
+    color: orange;
+}
 section{
     display: flex;
     flex-direction: row;
+    justify-content: space-between;
 }
 
 #head{
     display: flex;
     flex-direction: row;
     justify-content: right;
-    justify-items: right;
-    
-    
 }
 
 li, a{
@@ -35,10 +32,11 @@ li, a{
     font-size: 1.2rem;
 }
 
-a:hover{
-    color: brown;
-    font-style: oblique;
-    transition: all 3s;
+#cv:hover, #project:hover, #contact:hover{
+    
+    color: orange;
+    font-weight: bold;
+    transition: all 2s;
 }
 
 #cv{
@@ -50,27 +48,117 @@ a:hover{
     border-left: 1px solid black;
     
     padding-left:15px;
+    
 }
 
 #project{
     padding: 0px 15px;
 }
-img{
-    width: 20%;
-    height: 20%;
-    border-radius: 50%;
+main{
+    display: flex;
+    justify-content: center ;
+    padding: 2% 5% 6% 5% ;
+    border-bottom:solid 2px gray;
 }
 
-/* main{
+.middle{
     display: flex;
-    flex-direction: row;
+    flex-direction: column;
+}
+.btn{
+    display: flex;
+    justify-items: center;
     justify-content: center;
-} */
-#hello{
-    display: block;
+    
+}
+
+#c,#p, #co{
+    color: black;
+    margin: 3% 3%;
+    width: 90px;
+    height: 90px;
+    border: 1px solid black;
+    border-radius: 50%;
+    font-size: 1.2rem;
+    font-weight: bolder;
+}
+#c{
+ 
+    background-color:orange;
+    
+    
+}
+#c:hover{
+    background-color:rgb(233, 229, 14);
+    color: rgb(192, 13, 13);
+
+
+}
+#p{
+    background-color: rgb(104, 5, 5);
+    
+}
+#p:hover{
+    
+    background-color: rgb(192, 13, 13);
+}
+#co{
+    background-color: rgb(13, 25, 192);
+    
+}
+#co:hover{
+    background-color: rgb(18, 197, 197);
+}
+#img{
+    width: 30%;
+    height: 100%;
+    margin-right: 5%;
+}
+img{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width: 350px;
+    height: 350px;
+    border-radius: 50%;
+    margin: 0% 10% 0% 30%;
+    
+}
+
+#comment{
+    margin: 0% 20% 0% 20%;
+    padding: 0% 10% 0% 2%;
     text-align: justify;
 }
-.middle{
-    display: block;
-    text-align: center;
+footer{
+    display: flex;
+    flex-direction: row;
+    justify-items: center;
+    justify-content: space-between;
+}
+h4{
+    padding-top: 4%;
+    margin-bottom: 2%;
+}
+
+#phone, #email{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.icon{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-top: 20%;
+}
+#tel:hover {
+    color:orange;
+}
+#mail:hover {
+    color: orange;
+}
+#insta:hover, #face:hover, #twit:hover{
+    color: orange;
 }

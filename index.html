@@ -9,7 +9,7 @@
 <body>
     <header class="container">
         <section>
-                <br id="name">Muvumbi Victoire
+            <a href="index.html"><h4 id="name">Muvumbi Victoire</h4></a>
             <ul id="head">
                 <li><a href="my_cv.html" id="cv">CV</a></li>
                 <li><a href="Projects.html" id="project">Projects</a></li>
@@ -18,21 +18,45 @@
         </section>
     </header>
     <main>
-        <img src="images/profile_img.jpg" alt="profile picture">
-        <p id="hello">Lorem ipsum dolor sit amet consectetur adipisicing elit. Magnam incidunt nisi ex sequi impedit minima, inventore delectus optio.
-            Esse necessitatibus vero commodi praesentium provident doloribus dignissimos nulla sequi id molestiae!</p>
-        <p id="middle">
-            <input type="button" value="CV">
-            <input type="button" value="Projects">
-            <input type="button" value="Contact">
-        </p>
+        <div id="img">
+            <img src="images/me.jpg" alt="profile picture">
+        </div>
+        <div class="middle">
+                <div id="comment">
+                    <h1 id="hello">Hello</h1>
+                    <h4>About me</h4>
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Magnam incidunt nisi ex sequi impedit minima, inventore delectus optio.
+                    Esse necessitatibus vero commodi praesentium provident doloribus dignissimos nulla sequi id molestiae!
+                </div>
+            <div class="btn">
+                <button id="c"><a href="my_cv.html"> CV </a></button>
+                <button id="p"><a href="Projects.html"> Projects </a></button>
+                <button id="co"><a href="Contact.html"> Contact </a></button>
+            </div>
+        </div>
     </main>
 
     <footer>
-        <br>Phone number
-        <br>Email
-        <br>Suivez-moi
-        <br>by Victoire Muvumbi
+        <div id="phone">
+            <h4>Phone Number</h4>
+            <a href="tel:+243825057845" id="tel">+243825057845</a>
+        </div>
+        <div id="email">
+            <h4>Email</h4>
+            <a href="mailto:vicmisanu63@gmail.com" id="mail">vicmisanu63@gmail.com</a>
+        </div>
+        <div id="follow">
+            <h4>Follow Me</h4>
+            <div class="icon">
+                <iconify-icon icon="simple-icons:instagram" id="insta"></iconify-icon>
+                <iconify-icon icon="formkit:twitter" id="twit"></iconify-icon>
+                <iconify-icon icon="fe:facebook" id="face"></iconify-icon>
+            </div>
+        </div>
+        <div id="me">
+            <h4>© 2024 By Victoire Muvumbi</h4>
+        </div>
     </footer>
 </body>
 </html>
+<script src="https://code.iconify.design/iconify-icon/1.0.7/iconify-icon.min.js"></script>
