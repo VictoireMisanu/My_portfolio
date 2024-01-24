@@ -13,7 +13,7 @@ body{
 #name:hover{
     color: orange;
 }
-section{
+.header{
     display: flex;
     flex-direction: row;
     justify-content: space-between;
@@ -41,20 +41,20 @@ li, a{
 
 #cv{
     border-right: 1px solid black;
-    padding-right: 15px;
+    padding:0px 15px 0px 15px;
 }
 
 #contact{
     border-left: 1px solid black;
     
-    padding-left:15px;
+    padding:0px 15px 0px 15px;
     
 }
 
 #project{
     padding: 0px 15px;
 }
-main{
+#main_index{
     display: flex;
     justify-content: center ;
     padding: 2% 5% 6% 5% ;
@@ -141,11 +141,29 @@ h4{
     margin-bottom: 2%;
 }
 
-#phone, #email{
+#phone{
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
+}
+#email{
+    
+    text-align: center;
+}
+#mail{
+    display: flex;
+    flex-direction: column;
+    align-content: center;
+}
+.wa_tel{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    
+}
+#telegram:hover{
+    color: rgb(0, 102, 255);
 }
 .icon{
     display: flex;
@@ -161,4 +179,66 @@ h4{
 }
 #insta:hover, #face:hover, #twit:hover{
     color: orange;
+}
+#wa:hover{
+    color: green;
+}
+
+/*css pour le formulaire de contact*/
+
+#main_contact{
+    display: flex;
+    justify-items: center ;
+    justify-content: space-between;
+    padding: 0% 0% 5% 15% ;
+    border-bottom:solid 2px gray;
+}
+#form{
+    display: flex;
+    justify-items: center ;
+    justify-content: space-between;
+    padding: 2% 10% 6% 10% ;
+}
+#form1{
+    margin-right: 5%;
+}
+#msg{
+    width: 180px;
+    height: 100px;
+}
+input[type="text"], input[type="email"], textarea{
+    border: 2px solid black;
+    
+}
+#form1, #form2{
+    display: flex;
+    flex-direction: column;
+    gap: 1px;
+}
+
+#send{
+    margin: 60px 0px 0px 20px;
+    width: 120px;
+    height: 120px;
+    font-size: 20px;
+    font-weight: bolder;
+    background-color: orange;
+    border: 1px solid black;
+    border-radius: 50%;
+}
+.on{
+    color: orange;
+    border: 2px solid orangered;
+    border-radius: 2%;
+}
+
+/*css pour le cv*/
+#main_cv{
+    border-bottom:solid 2px gray;
+    padding:5% 5%;
+}
+#all_cv{
+    padding: 0% 15%;
+    display: flex;
+    text-align: justify;
 }

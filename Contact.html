@@ -3,9 +3,74 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <link rel="stylesheet" href="css/beauty.css">
+    <title>Contact</title>
 </head>
 <body>
-    <h1>Contact</h1>
+    <header class="container">
+        <section class="header">
+            <a href="index.html"><h4 id="name">Muvumbi Victoire</h4></a>
+            <ul id="head">
+                <li><a href="my_cv.html" id="cv">CV</a></li>
+                <li><a href="Projects.html" id="project">Projects</a></li>
+                <li><a href="Contact.html" id="contact" class="on">Contact</a></li>
+            </ul>
+        </section>
+    </header>
+    
+    <main id="main_contact">
+        <div id="contacter">
+            <p><h1>Contact</h1></p>
+            <h4>Phone</h4>
+            <a href="tel:+243825057845" id="tel">+243825057845</a>
+            
+            <h4>Email</h4>
+            <a href="mailto:vicmisanu63@gmail.com" id="mail">vicmisanu63@gmail.com</a>
+        </div>
+        <div id="form">
+            <div id="form1">
+                <label for="fn">First Name</label>
+                <br><input type="text" name="First name" id="fn">
+                <br><label for="email">Email</label>
+                <br><input type="email" name="Email" id="email">
+                <br><label for="msg">Message</label>
+                <br><input type="text" name="message" id="msg">
+            </div>
+            <div id="form2">
+                <label for="ln">Last Name</label>
+                <br><input type="text" name="Last name" id="ln">
+                <br><label for="subject">Subject</label>
+                <br><input type="text" name="Subject" id="subject">
+                <input type="submit" value="Send" id="send">
+            </div>
+        </div>
+
+    </main>
+    <footer>
+        <div id="phone">
+            <h4>Phone Number</h4>
+            <a href="tel:+243825057845" id="tel">+243825057845</a>
+            <div class="wa_tel">
+                <a href="https://api.whatsapp.com/send?phone=243825057845"><iconify-icon icon="la:whatsapp" width="50" id="wa"></iconify-icon></a>
+                <a href="https://t.me/VictoireMuvumbi"><iconify-icon icon="ic:sharp-telegram" width="50" id="telegram"></iconify-icon></a>
+            </div>
+        </div>
+        <div id="email">
+            <h4>Email</h4>
+            <a href="mailto:vicmisanu63@gmail.com" id="mail">vicmisanu63@gmail.com</a>
+        </div>
+        <div id="follow">
+            <h4>Follow Me</h4>
+            <div class="icon">
+                <a href="https://www.instagram.com/victoiremuvumbi/"><iconify-icon icon="simple-icons:instagram" id="insta"></iconify-icon></a>
+                <a href=""><iconify-icon icon="formkit:twitter" id="twit"></iconify-icon></a>
+                <a href="https://web.facebook.com/profile.php?id=100077261924800"><iconify-icon icon="fe:facebook" id="face"></iconify-icon></a>
+            </div>
+        </div>
+        <div id="me">
+            <h4>© 2024 By Victoire Muvumbi</h4>
+        </div>
+    </footer>
 </body>
 </html>
+<script src="https://code.iconify.design/iconify-icon/1.0.7/iconify-icon.min.js"></script>
