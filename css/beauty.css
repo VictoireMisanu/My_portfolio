@@ -89,25 +89,40 @@ li, a{
     
 }
 #c:hover{
-    background-color:rgb(233, 229, 14);
-    color: rgb(192, 13, 13);
+    background-color:orangered;
+    width: 93px;
+    height: 93px;
+    box-shadow: 1px 5px 5px 5px rgb(112, 3, 3);
+    border: none;
+    transition: all 2s;
 
 
 }
 #p{
-    background-color: rgb(104, 5, 5);
+    background-color: rgb(192, 13, 13);
     
 }
 #p:hover{
-    
-    background-color: rgb(192, 13, 13);
+
+    width: 93px;
+    height: 93px;
+    box-shadow: 1px 5px 5px 5px rgb(112, 3, 3);
+    border: none;
+    transition: all 2s;
 }
+
 #co{
-    background-color: rgb(13, 25, 192);
+    background-color:blue;
+    
     
 }
 #co:hover{
-    background-color: rgb(18, 197, 197);
+    background-color: rgb(11, 21, 161);
+    width: 93px;
+    height: 93px;
+    box-shadow: 1px 5px 5px 5px rgb(1, 9, 77);
+    border: none;
+    transition: all 2s;
 }
 #img{
     width: 30%;
@@ -226,10 +241,21 @@ input[type="text"], input[type="email"], textarea{
     border: 1px solid black;
     border-radius: 50%;
 }
+
+#send:hover{
+    background-color:orangered;
+    width: 93px;
+    height: 93px;
+    box-shadow: 1px 5px 5px 5px rgb(112, 3, 3);
+    border: none;
+    transition: all 2s;
+
+
+}
 .on{
     color: orange;
     border: 2px solid orangered;
-    border-radius: 2%;
+    border-radius: 10px;
 }
 
 /*css pour le cv*/
