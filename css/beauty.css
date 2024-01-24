@@ -261,10 +261,29 @@ input[type="text"], input[type="email"], textarea{
 /*css pour le cv*/
 #main_cv{
     border-bottom:solid 2px gray;
-    padding:5% 5%;
+    padding:2% 5%;
 }
-#all_cv{
-    padding: 0% 15%;
+#vitae{
+    margin-bottom: 5% ;
+}
+.degree, .diploma, .cnss, .admin, .trainer, .seed{
     display: flex;
+    flex-direction: row;
+    align-items:center;
+    align-content: space-between;
+    
+}
+.diploma{
+    border-bottom: 2px solid gray;
+    padding-bottom: 5%;
+}
+#what1, #what2, #what3, #what4, #what5,#what6{
+    margin-right: 10%;
     text-align: justify;
+}
+#when1{
+    padding-left: 15%;
+}
+#when5{
+    padding-left: 40%;
 }
