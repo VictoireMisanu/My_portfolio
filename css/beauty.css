@@ -129,7 +129,7 @@ li, a{
     height: 100%;
     margin-right: 5%;
 }
-img{
+#profile_pic{
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -192,8 +192,15 @@ h4{
 #mail:hover {
     color: orange;
 }
-#insta:hover, #face:hover, #twit:hover{
-    color: orange;
+#insta:hover{
+
+    color: rgb(216, 7, 76);
+}
+#twit:hover{
+    color: rgb(50, 102, 245);
+}
+#face:hover{
+    color: rgb(36, 36, 172);
 }
 #wa:hover{
     color: green;
@@ -259,6 +266,7 @@ input[type="text"], input[type="email"], textarea{
 }
 
 /*css pour le cv*/
+
 #main_cv{
     border-bottom:solid 2px gray;
     padding:2% 5%;
@@ -268,7 +276,6 @@ input[type="text"], input[type="email"], textarea{
 }
 .degree, .diploma, .cnss, .admin, .trainer, .seed{
     display: flex;
-    flex-direction: row;
     align-items:center;
     align-content: space-between;
     
@@ -286,4 +293,30 @@ input[type="text"], input[type="email"], textarea{
 }
 #when5{
     padding-left: 40%;
+}
+
+/*css pour le projet*/
+
+#main_project{
+    border-bottom:solid 2px gray;
+    padding: 0% 5% 10%;
+}
+#project_title{
+    padding-left: 10%;
+}
+.norman, .portfolio{
+    display: flex;
+    justify-content: center;
+    align-content: space-between;
+}
+
+#img_norman, #img_portefolio{
+    width: 500px;
+    height: 300px;
+    margin: 10% 15% 0% 10%;
+    border: 10px solid rgb(216, 214, 214);
+}
+
+#portfolio_text, #norman_text{
+    margin: 5% 10% 0%;
 }
