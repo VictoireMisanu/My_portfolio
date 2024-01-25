@@ -5,24 +5,29 @@
 body{
     padding: 5px 70px;
 }
-#name{
+.name{
     font-size: 1.5rem;
     font-weight: bolder;
     
 }
-#name:hover{
+.name:hover{
     color: orange;
 }
 .header{
+    
     display: flex;
     flex-direction: row;
     justify-content: space-between;
+    
+    
 }
 
-#head{
+.head{
+    
     display: flex;
     flex-direction: row;
     justify-content: right;
+   
 }
 
 li, a{
@@ -32,33 +37,38 @@ li, a{
     font-size: 1.2rem;
 }
 
-#cv:hover, #project:hover, #contact:hover{
+.cv:hover, 
+.project:hover, #project:hover,
+.contact:hover, #contact:hover,
+#demo:hover{
     
     color: orange;
     font-weight: bold;
     transition: all 2s;
 }
 
-#cv{
+.cv, #cv{
     border-right: 1px solid black;
     padding:0px 15px 0px 15px;
 }
 
-#contact{
+.contact, #contact, #demo{
     border-left: 1px solid black;
     
     padding:0px 15px 0px 15px;
     
 }
 
-#project{
+.project, #project{
     padding: 0px 15px;
 }
 #main_index{
+    position: relative;
     display: flex;
     justify-content: center ;
     padding: 2% 5% 6% 5% ;
     border-bottom:solid 2px gray;
+    
 }
 
 .middle{
@@ -72,7 +82,7 @@ li, a{
     
 }
 
-#c,#p, #co{
+#c, #p, #co{
     color: black;
     margin: 3% 3%;
     width: 90px;
@@ -83,7 +93,7 @@ li, a{
     font-weight: bolder;
 }
 #c{
- 
+    
     background-color:orange;
     
     
@@ -95,6 +105,7 @@ li, a{
     box-shadow: 1px 5px 5px 5px rgb(112, 3, 3);
     border: none;
     transition: all 2s;
+    cursor: pointer;
 
 
 }
@@ -109,6 +120,7 @@ li, a{
     box-shadow: 1px 5px 5px 5px rgb(112, 3, 3);
     border: none;
     transition: all 2s;
+    cursor: pointer;
 }
 
 #co{
@@ -123,6 +135,7 @@ li, a{
     box-shadow: 1px 5px 5px 5px rgb(1, 9, 77);
     border: none;
     transition: all 2s;
+    cursor: pointer;
 }
 #img{
     width: 30%;
@@ -156,7 +169,7 @@ h4{
     margin-bottom: 2%;
 }
 
-#phone{
+.phone{
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -166,7 +179,7 @@ h4{
     
     text-align: center;
 }
-#mail{
+.mail{
     display: flex;
     flex-direction: column;
     align-content: center;
@@ -177,7 +190,7 @@ h4{
     justify-content: space-between;
     
 }
-#telegram:hover{
+.telegram:hover{
     color: rgb(0, 102, 255);
 }
 .icon{
@@ -186,23 +199,23 @@ h4{
     justify-content: space-between;
     margin-top: 20%;
 }
-#tel:hover {
+.tel:hover {
     color:orange;
 }
-#mail:hover {
+.mail:hover {
     color: orange;
 }
-#insta:hover{
+.insta:hover{
 
     color: rgb(216, 7, 76);
 }
-#twit:hover{
+.twit:hover{
     color: rgb(50, 102, 245);
 }
-#face:hover{
+.face:hover{
     color: rgb(36, 36, 172);
 }
-#wa:hover{
+.wa:hover{
     color: green;
 }
 
@@ -228,7 +241,7 @@ h4{
     width: 180px;
     height: 100px;
 }
-input[type="text"], input[type="email"], textarea{
+input[type="text"], input[type="email"]{
     border: 2px solid black;
     
 }
@@ -280,19 +293,17 @@ input[type="text"], input[type="email"], textarea{
     align-content: space-between;
     
 }
-.diploma{
+.diploma, .seed{
     border-bottom: 2px solid gray;
     padding-bottom: 5%;
 }
-#what1, #what2, #what3, #what4, #what5,#what6{
+#what1, #what2, #what3, #what4, #what5,#what6, .lg{
+    width: 50%;
     margin-right: 10%;
     text-align: justify;
 }
-#when1{
+#when1,#when2, #when3, #when4, #when5, #when6{
     padding-left: 15%;
-}
-#when5{
-    padding-left: 40%;
 }
 
 /*css pour le projet*/
@@ -319,4 +330,8 @@ input[type="text"], input[type="email"], textarea{
 
 #portfolio_text, #norman_text{
     margin: 5% 10% 0%;
+}
+.demo{
+    font-size: 1rem;
+    color: orangered;
 }
