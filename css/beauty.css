@@ -1,0 +1,367 @@
+*{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;    
+}
+
+body{
+    padding: 5px 70px;
+}
+.name{
+    font-size: 1.5rem;
+    font-weight: bolder;
+    
+}
+.name:hover{
+    color: orange;
+}
+.header{
+    
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    
+    
+}
+
+.head{
+    
+    display: flex;
+    flex-direction: row;
+    justify-content: right;
+   
+}
+
+li, a{
+    text-decoration: none;
+    list-style: none;
+    color: rgba(0, 0, 0, 0.7);
+    font-size: 1.2rem;
+}
+
+.cv:hover, 
+.project:hover, #project:hover,
+.contact:hover, #contact:hover,
+.demo:hover{
+    
+    color: orange;
+    font-weight: bold;
+    transition: all 2s;
+}
+
+.cv, #cv{
+    border-right: 1px solid black;
+    padding:0px 15px 0px 15px;
+}
+
+.contact, #contact, #demo{
+    border-left: 1px solid black;
+    
+    padding:0px 15px 0px 15px;
+    
+}
+
+.project, #project{
+    padding: 0px 15px;
+}
+#main_index{
+    position: relative;
+    display: flex;
+    justify-content: center ;
+    padding: 2% 5% 6% 5% ;
+    border-bottom:solid 2px gray;
+    
+}
+
+.middle{
+    display: flex;
+    flex-direction: column;
+}
+.btn{
+    display: flex;
+    justify-items: center;
+    justify-content: center;
+    
+}
+
+#c, #p, #co{
+    color: black;
+    margin: 3% 3%;
+    width: 90px;
+    height: 90px;
+    border: 1px solid black;
+    border-radius: 50%;
+    font-size: 1.2rem;
+    font-weight: bolder;
+}
+#c{
+    
+    background-color:orange;
+    
+    
+}
+#c:hover{
+    background-color:orangered;
+    width: 93px;
+    height: 93px;
+    box-shadow: 1px 5px 5px 5px rgb(112, 3, 3);
+    border: none;
+    transition: all 2s;
+    cursor: pointer;
+
+
+}
+#p{
+    background-color: rgb(192, 13, 13);
+    
+}
+#p:hover{
+
+    width: 93px;
+    height: 93px;
+    box-shadow: 1px 5px 5px 5px rgb(112, 3, 3);
+    border: none;
+    transition: all 2s;
+    cursor: pointer;
+}
+
+#co{
+    background-color:blue;
+    
+    
+}
+#co:hover{
+    background-color: rgb(11, 21, 161);
+    width: 93px;
+    height: 93px;
+    box-shadow: 1px 5px 5px 5px rgb(1, 9, 77);
+    border: none;
+    transition: all 2s;
+    cursor: pointer;
+}
+#img{
+    width: 30%;
+    height: 100%;
+    margin-right: 5%;
+}
+#profile_pic{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width: 350px;
+    height: 350px;
+    border-radius: 50%;
+    margin: 0% 10% 0% 30%;
+    
+}
+
+#comment{
+    margin: 0% 20% 0% 20%;
+    padding: 0% 10% 0% 2%;
+    text-align: justify;
+}
+footer{
+    display: flex;
+    flex-direction: row;
+    justify-items: center;
+    justify-content: space-between;
+}
+h4{
+    padding-top: 4%;
+    margin-bottom: 2%;
+}
+
+.phone{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+#email{
+    
+    text-align: center;
+}
+.mail{
+    display: flex;
+    flex-direction: column;
+    align-content: center;
+}
+.wa_tel{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    
+}
+.telegram:hover{
+    color: rgb(0, 102, 255);
+}
+.icon{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-top: 20%;
+}
+.tel:hover {
+    color:orange;
+}
+.mail:hover {
+    color: orange;
+}
+.insta:hover{
+
+    color: rgb(216, 7, 76);
+}
+.twit:hover{
+    color: rgb(50, 102, 245);
+}
+.face:hover{
+    color: rgb(36, 36, 172);
+}
+.wa:hover{
+    color: green;
+}
+
+/*css pour le formulaire de contact*/
+
+#main_contact{
+    display: flex;
+    justify-items: center ;
+    justify-content: space-between;
+    padding: 0% 0% 5% 15% ;
+    border-bottom:solid 2px gray;
+}
+#form{
+    display: flex;
+    justify-items: center ;
+    justify-content: space-between;
+    padding: 2% 10% 6% 10% ;
+}
+#form1{
+    margin-right: 5%;
+}
+#msg{
+    width: 180px;
+    height: 100px;
+}
+input[type="text"], input[type="email"]{
+    border: 2px solid black;
+    
+}
+#form1, #form2{
+    display: flex;
+    flex-direction: column;
+    gap: 1px;
+}
+
+#send{
+    margin: 60px 0px 0px 20px;
+    width: 120px;
+    height: 120px;
+    font-size: 20px;
+    font-weight: bolder;
+    background-color: orange;
+    border: 1px solid black;
+    border-radius: 50%;
+}
+
+#send:hover{
+    background-color:orangered;
+    width: 93px;
+    height: 93px;
+    box-shadow: 1px 5px 5px 5px rgb(112, 3, 3);
+    border: none;
+    transition: all 2s;
+
+
+}
+.on{
+    color: orange;
+    border: 2px solid orangered;
+    border-radius: 10px;
+}
+
+/*css pour le cv*/
+
+#main_cv{
+    border-bottom:solid 2px gray;
+    padding:2% 5%;
+}
+#vitae{
+    margin-bottom: 5% ;
+}
+.degree, .diploma, .cnss, .admin, .trainer, .seed{
+    display: flex;
+    align-items:center;
+    align-content: space-between;
+    
+}
+.diploma, .seed{
+    border-bottom: 2px solid gray;
+    padding-bottom: 5%;
+}
+#what1, #what2, #what3, #what4, #what5,#what6, .lg{
+    width: 50%;
+    margin-right: 10%;
+    text-align: justify;
+}
+#when1,#when2, #when3, #when4, #when5, #when6{
+    padding-left: 15%;
+}
+
+/*css pour le projet*/
+
+#main_project{
+    border-bottom:solid 2px gray;
+    padding: 0% 5% 10%;
+}
+#project_title,#article{
+    padding-left: 10%;
+}
+.norman, .portfolio {
+    display: flex;
+    justify-content: center;
+    align-content: space-between;
+}
+
+#img_norman, #img_portefolio{
+    width: 500px;
+    height: 300px;
+    margin: 10% 15% 0% 10%;
+    border: 10px solid rgb(216, 214, 214);
+}
+
+#portfolio_text, #norman_text{
+    margin: 5% 10% 0%;
+}
+
+/*css pour demo*/
+#main_demo{
+    border-bottom:solid 2px gray;
+    padding: 0% 5% 10%;
+}
+.demo{
+    font-size: 1rem;
+}
+.apo, .god_love {
+    display: flex;
+    justify-content: center;
+    align-content: space-between;
+}
+.apo{
+    border-bottom: 2px solid gray;
+    padding-bottom: 5%;
+}
+
+#vid_god_love{
+    width: 500px;
+    height: 400px;
+    margin: 5% 15% 0% 0%;
+    
+}
+.vid_apo:hover{
+    color: blue;
+}
+
+#god_love_text, #apo_text{
+    margin: 5% 10% 0%;
+    font-family: 'Segoe UI', sans-serif;
+    text-align: justify;
+}
