@@ -39,8 +39,7 @@ li, a{
 
 .cv:hover, 
 .project:hover, #project:hover,
-.contact:hover, #contact:hover,
-.demo:hover{
+.contact:hover, #contact:hover{
     
     color: orange;
     font-weight: bold;
@@ -52,7 +51,7 @@ li, a{
     padding:0px 15px 0px 15px;
 }
 
-.contact, #contact, #demo{
+.contact, #contact{
     border-left: 1px solid black;
     
     padding:0px 15px 0px 15px;
@@ -67,6 +66,7 @@ li, a{
     display: flex;
     justify-content: center ;
     padding: 2% 5% 20% 5% ;
+    margin: 5% 0% 0% 20%;
     border-bottom:solid 2px gray;
     
 }
@@ -79,7 +79,7 @@ li, a{
     display: flex;
     justify-items: center;
     justify-content: center;
-    margin-right: 25%;
+    margin-right: 20%;
 }
 
 #c, #p, #co{
@@ -136,6 +136,7 @@ li, a{
     border: none;
     transition: all 2s;
     cursor: pointer;
+    margin-left: 50px;
 }
 #img{
     width: 30%;
@@ -148,13 +149,13 @@ li, a{
     width: 350px;
     height: 350px;
     border-radius: 50%;
-    margin-left: 30%;
+    margin-left: 70%;
     
 }
 
 #comment{
-    margin: 0% 20% 0% 20%;
-    padding: 0% 10% 0% 2%;
+    margin: 0% 20% 0% 0%;
+    padding: 0% 25% 0% 25%;
     text-align: justify;
 }
 footer{
@@ -224,18 +225,19 @@ h4{
     display: flex;
     justify-items: center ;
     justify-content: space-between;
-    padding: 2% 5% 20% 15% ;
-    
+    padding: 10% 5% 20% 15% ;
     border-bottom:solid 2px gray;
 }
 #form{
     display: flex;
     justify-items: center ;
     justify-content: space-between;
+    margin: 0% 20% 0% 0%;
     padding: 2% 10% 6% 0% ;
 }
 #contacter{
-    margin-left: 10%;
+    margin-left: 30%;
+
 }
 #form1{
     margin-right: 5%;
@@ -334,38 +336,6 @@ input[type="text"], input[type="email"]{
 
 #portfolio_text, #norman_text{
     margin: 5% 10% 0%;
+    width: 50%;
 }
 
-/*css pour demo*/
-#main_demo{
-    padding: 2% 5% 20% 5% ;
-    border-bottom:solid 2px gray;
-}
-.demo{
-    font-size: 1rem;
-}
-.apo, .god_love {
-    display: flex;
-    justify-content: center;
-    align-content: space-between;
-}
-.apo{
-    border-bottom: 2px solid gray;
-    padding-bottom: 5%;
-}
-
-#vid_god_love{
-    width: 500px;
-    height: 400px;
-    margin: 5% 15% 0% 0%;
-    
-}
-.vid_apo:hover{
-    color: blue;
-}
-
-#god_love_text, #apo_text{
-    margin: 5% 10% 0%;
-    font-family: 'Segoe UI', sans-serif;
-    text-align: justify;
-}
