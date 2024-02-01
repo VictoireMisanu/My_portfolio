@@ -1,1 +1,1 @@
-https://github.com/kadea-academy-learners/portfolio-VictoireMisanu.git
+https://victoiremisanu.github.io/My_portfolio/
