@@ -18,7 +18,14 @@ body{
     display: flex;
     flex-direction: row;
     justify-content: space-between;
+    align-items: center;
     
+    
+}
+.header a{
+    display: flex;
+    align-items: center;
+    justify-content: center;
     
 }
 
@@ -61,12 +68,15 @@ li, a{
 .project, #project{
     padding: 0px 15px;
 }
-#main_index{
-    position: relative;
+.main_index{
+    min-height: 75vh;
+    min-width: fit-content;
     display: flex;
     justify-content: center ;
-    padding: 2% 5% 20% 5% ;
-    margin: 5% 0% 0% 20%;
+    flex-direction: row;
+    gap: 50px;
+    justify-content: center;
+    align-items: center;
     border-bottom:solid 2px gray;
     
 }
@@ -74,34 +84,42 @@ li, a{
 .middle{
     display: flex;
     flex-direction: column;
+    height: 350px;
+    width: 450px;
+    gap: 35px;
 }
 .btn{
     display: flex;
     justify-items: center;
-    justify-content: center;
-    margin-right: 20%;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+    flex-direction: row;
+    gap :20px;
+    padding:0%
 }
 
-#c, #p, #co{
+.btn a{
+    display: flex;
+    justify-content: center;
+    align-items: center;
     color: black;
-    margin: 3% 3%;
-    width: 90px;
-    height: 90px;
+    width: 120px;
+    height: 120px;
     border: 1px solid black;
     border-radius: 50%;
-    font-size: 1.2rem;
     font-weight: bolder;
-}
-#c{
-    
-    background-color:orange;
-    
     
 }
-#c:hover{
+.btn__cv{
+      background-color:orange;
+    
+    
+}
+.btn__cv:hover{
     background-color:orangered;
-    width: 93px;
-    height: 93px;
+    width: 130px;
+    height: 130px;
     box-shadow: 1px 5px 5px 5px rgb(112, 3, 3);
     border: none;
     transition: all 2s;
@@ -109,53 +127,56 @@ li, a{
 
 
 }
-#p{
+.btn__p{
     background-color: rgb(192, 13, 13);
     
 }
-#p:hover{
+.btn__p:hover{
 
-    width: 93px;
-    height: 93px;
+    width: 130px;
+    height: 130px;
     box-shadow: 1px 5px 5px 5px rgb(112, 3, 3);
     border: none;
     transition: all 2s;
     cursor: pointer;
 }
 
-#co{
+.btn__co{
     background-color:blue;
     
     
 }
-#co:hover{
+.btn__co:hover{
     background-color: rgb(11, 21, 161);
-    width: 93px;
-    height: 93px;
+    width: 130px;
+    height: 130px;
     box-shadow: 1px 5px 5px 5px rgb(1, 9, 77);
     border: none;
     transition: all 2s;
     cursor: pointer;
-    margin-left: 50px;
-}
-#img{
-    width: 30%;
-    height: 100%;
-}
-#profile_pic{
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    width: 350px;
-    height: 350px;
-    border-radius: 50%;
-    margin-left: 70%;
     
 }
 
-#comment{
-    margin: 0% 20% 0% 0%;
-    padding: 0% 25% 0% 25%;
+.profile_pic{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width: 450px;
+    height: 450px;
+    border-radius: 50%;
+    filter: grayscale(1);
+    
+}
+
+.profile_pic:hover{
+    filter: grayscale(0);
+    border: 1px solid black;
+    padding: 2%;
+    border-radius: 50%;
+    transition: all ease-in-out 0.5s;
+}
+.comment{
+    
     text-align: justify;
 }
 footer{

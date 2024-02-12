@@ -9,7 +9,7 @@
     <body>
         <header>
             <section class="header">
-                <a href="index.html"><h4 class="name">Muvumbi Victoire</h4></a>
+                <a href="index.html" class="name">Muvumbi Victoire</a>
                 <ul class="head">
                     <li><a href="my_cv.html" class="cv">CV</a></li>
                     <li><a href="Projects.html" class="project">Projects</a></li>
@@ -17,12 +17,12 @@
                 </ul>
             </section>
         </header>
-        <main id="main_index">
-            <div id="img">
-                <img src="images/me.png" alt="profile picture" id="profile_pic">
+        <main class="main_index">
+            <div class="img">
+                <img src="images/me.jpg" alt="profile picture" class="profile_pic">
             </div>
             <div class="middle">
-                    <div id="comment">
+                    <div class="comment">
                         <h1 id="hello">Hello</h1>
                         <h3>About me</h3>
                         I am <strong>Muvumbi Victoire</strong>, a web full stack developer to be and a student
@@ -32,9 +32,10 @@
                         new technologies.
                     </div>
                 <div class="btn">
-                    <button id="c" onclick="window.location.href='my_cv.html'"> CV </button>
-                    <button id="p" onclick="window.location.href='Projects.html'"> Projects </button>
-                    <button id="co" onclick="window.location.href='Contact.html'"> Contact </button>
+                    <a href="my_cv.html" class="btn__cv">CV</a>
+                    <a href="Projects.html" class="btn__p" >Projects</a>
+                    <a href="Contact.html" class="btn__co">Contact</a>
+                    
                 </div>
             </div>
         </main>
