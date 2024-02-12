@@ -45,28 +45,28 @@ li, a{
 }
 
 .cv:hover, 
-.project:hover, #project:hover,
-.contact:hover, #contact:hover{
+.project:hover,
+.contact:hover{
     
     color: orange;
     font-weight: bold;
     transition: all 2s;
 }
 
-.cv, #cv{
+.cv{
     border-right: 1px solid black;
     padding:0px 15px 0px 15px;
 }
 
-.contact, #contact{
+.contact{
     border-left: 1px solid black;
     
-    padding:0px 15px 0px 15px;
+    padding:0px 15px;
     
 }
 
 .project, #project{
-    padding: 0px 15px;
+    padding: 0px 10px;
 }
 .main_index{
     min-height: 75vh;
@@ -302,6 +302,7 @@ input[type="text"], input[type="email"]{
     color: orange;
     border: 2px solid orangered;
     border-radius: 10px;
+    background-color: rgba(255,165, 0, 0.5);
 }
 
 /*css pour le cv*/
