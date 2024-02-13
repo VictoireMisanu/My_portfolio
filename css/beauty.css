@@ -12,6 +12,11 @@ body{
 }
 .name:hover{
     color: orange;
+    border: 1px solid orangered;
+    padding: 1%;
+    border-radius: 10px;
+    background-color: rgba(255,165, 0, 0.5);
+    transition: all 0.3s;
 }
 .header{
     
@@ -189,89 +194,86 @@ h4{
     margin-bottom: 2%;
 }
 
-.phone{
+.Phone__contact{
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
 }
-#email{
+.register1--email{
     
     text-align: center;
 }
-.mail{
+.contacter__mail{
     display: flex;
     flex-direction: column;
     align-content: center;
 }
-.wa_tel{
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
-    
+
+.wa:hover{
+    color: green;
 }
 .telegram:hover{
     color: rgb(0, 102, 255);
 }
-.icon{
+.email--mail:hover{
+    color: orange;
+}
+.social__media{
     display: flex;
     align-items: center;
     justify-content: space-between;
     margin-top: 20%;
 }
-.tel:hover {
-    color:orange;
-}
-.mail:hover {
+
+.Phone__contact--tel:hover,
+.contacter__tel:hover,
+.contacter__mail:hover {
     color: orange;
 }
-.insta:hover{
+.social__media--insta:hover{
 
     color: rgb(216, 7, 76);
 }
-.twit:hover{
+.social__media--twit:hover{
     color: rgb(50, 102, 245);
 }
-.face:hover{
+.social__media--face:hover{
     color: rgb(36, 36, 172);
 }
-.wa:hover{
-    color: green;
-}
+
 
 /*css pour le formulaire de contact*/
 
 .main_contact{
-    min-height: 75vh;
+    min-height: 65vh;
     min-width: fit-content;
     display: flex;
     flex-direction: row;
     justify-items: center ;
     align-items: center;
     justify-content: space-between;
-    padding: 5% 15%;
-    /* gap: 0px 30px 30px 30px; */
+    padding: 0% 20%;
     border-bottom:solid 2px gray;
 }
 
-.form{
+.register{
     display: flex;
     justify-items: center ;
     justify-content: space-between;
     height: 350px;
     width: 350px;
-    /* margin: 0% 20% 0% 0%; */
-    /* padding: 2% 10% 6% 0% ; */
+
 }
 .contacter{
     height: 350px;
     width: 350px;
 
 }
-.form1{
+.register1{
     margin-right: 5%;
 }
-#msg{
+.register1--msg{
     width: 180px;
     height: 100px;
 }
@@ -279,13 +281,13 @@ input[type="text"], input[type="email"]{
     border: 2px solid black;
     
 }
-.form1, .form2{
+.register1, .register2{
     display: flex;
     flex-direction: column;
     gap: 1px;
 }
 
-#send{
+.register2--send{
     margin: 60px 0px 0px 20px;
     width: 120px;
     height: 120px;
@@ -296,7 +298,7 @@ input[type="text"], input[type="email"]{
     border-radius: 50%;
 }
 
-#send:hover{
+.register2--send:hover{
     background-color:orangered;
     width: 93px;
     height: 93px;
@@ -306,7 +308,7 @@ input[type="text"], input[type="email"]{
 
 
 }
-.on{
+.link--framed{
     margin: left 10px; ;
     color: orange;
     border: 2px solid orangered;
@@ -370,3 +372,13 @@ input[type="text"], input[type="email"]{
     width: 50%;
 }
 
+
+
+
+/* Responsive */
+
+/* Tablette */
+
+@media screen and {
+    
+}
