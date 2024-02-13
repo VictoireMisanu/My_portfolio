@@ -85,14 +85,14 @@ li, a{
     
 }
 
-.middle{
+.Personnality{
     display: flex;
     flex-direction: column;
     height: 350px;
     width: 450px;
     gap: 35px;
 }
-.btn{
+.Personnality__btn{
     display: flex;
     justify-items: center;
     justify-content: space-between;
@@ -103,7 +103,7 @@ li, a{
     padding:0%
 }
 
-.btn a{
+.Personnality__btn a{
     display: flex;
     justify-content: center;
     align-items: center;
@@ -179,7 +179,7 @@ li, a{
     border-radius: 50%;
     transition: all ease-in-out 0.5s;
 }
-.comment{
+.Personnality__Description{
     
     text-align: justify;
 }
