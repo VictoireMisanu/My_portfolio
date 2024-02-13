@@ -323,7 +323,7 @@ input[type="text"], input[type="email"]{
     padding:5% 5%;
     
 }
-.curiculum_title{
+.curiculum__title{
     margin-bottom: 5% ;
 }
 .curiculum__degree{
@@ -355,29 +355,28 @@ input[type="text"], input[type="email"]{
 }
 /*css pour le projet*/
 
-#main_project{
+.main__project{
     border-bottom:solid 2px gray;
     padding: 2% 5% 20% 5% ;
 }
-#project_title,#article{
-    padding-left: 10%;
-}
-.norman, .portfolio {
+
+.project__content{
     display: flex;
     justify-content: center;
     align-content: space-between;
 }
 
-#img_norman, #img_portefolio{
+.project__pic{
     width: 500px;
     height: 300px;
     margin: 10% 15% 0% 10%;
     border: 10px solid rgb(216, 214, 214);
 }
 
-#portfolio_text, #norman_text{
+.project--description{
     margin: 5% 10% 0%;
-    width: 50%;
+    width: 70%;
+    font-size: 1.5rem;
 }
 
 
