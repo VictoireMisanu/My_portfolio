@@ -307,6 +307,7 @@ input[type="text"], input[type="email"]{
 
 }
 .on{
+    margin: left 10px; ;
     color: orange;
     border: 2px solid orangered;
     border-radius: 10px;
