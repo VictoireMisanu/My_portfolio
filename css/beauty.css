@@ -1,10 +1,17 @@
 *{
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;    
 }
-
 body{
-    padding: 5px 70px;
+    margin: 0;
+    width: 100%;
+    height: 100vh;
 }
+/* .padding--effect{
+    padding: 5px 70px;
+    
+} */
+
+/* Header */
 .header__name{
     font-size: 1.5rem;
     font-weight: bolder;
@@ -75,13 +82,14 @@ li, a{
 }
 .main_index{
     min-height: 75vh;
+    width: 100%;
     min-width: fit-content;
     display: flex;
     flex-direction: row;
     gap: 50px;
     justify-content: center;
     align-items: center;
-    border-bottom:solid 2px gray;
+    
     
 }
 
@@ -188,6 +196,7 @@ footer{
     flex-direction: row;
     justify-items: center;
     justify-content: space-between;
+    border-top:solid 2px gray;
 }
 h4{
     padding-top: 4%;
@@ -197,8 +206,8 @@ h4{
 .Phone__contact{
     display: flex;
     flex-direction: column;
-    justify-content: center;
-    align-items: center;
+    /* justify-content: center;
+    align-items: center; */
 }
 .register1--email{
     
@@ -383,6 +392,10 @@ input[type="text"], input[type="email"]{
 
 /* Responsive */
 
+@media screen and(max-width : 1280px) {
+    
+}
+
 /* Tablette */
 
 @media screen and (max-width : 905px){
@@ -393,6 +406,129 @@ input[type="text"], input[type="email"]{
     
 }
 /* Petit Téléphone */
-@media screen and (max-width : 450px){
+@media screen and (max-width : 428px){
+    .main_index{
+        height: 100vh;
+        width: 100%;
+        margin-top: 2rem;
+        /* min-width: fit-content; */
+        display: flex;
+        flex-direction: column;
+        gap: 0;
+        justify-content: center;
+        align-items: center;
+        
+        /* background-color: red; */
+        
+    }
+    .profile{
+        margin-top: 10%;
+    }
+    .profile_pic{
+        justify-content: center;
+        width: 250px;
+        height: 250px;
+        border-radius: 50%;
+        filter: grayscale(1);
+        
+    }
+
+    .profile_pic:hover{
+        filter: grayscale(0);
+        border: 1px solid black;
+        padding: 2%;
+        border-radius: 50%;
+        transition: all ease-in-out 0.5s;
+    }
+
+    .Personnality{
+        display: flex;
+        flex-direction: column;
+        height: 100vh;
+        width: 100%;
+        
+    }
+
+    .Personnality__Description{
+        padding: 0 0;
+        text-align: center;
+    }
+
+    .Personnality__btn{
+        display: flex;
+        justify-items: center;
+        justify-content: space-between;
+        align-items: center;
+        width: 80%;
+        flex-direction: row;
+        gap :10px;
+        margin-left: 10%;
+        /* background-color: green; */
+        
+    }
     
+    .Personnality__btn a{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        color: black;
+        width: 80px;
+        height: 80px;
+        border: 1px solid black;
+        border-radius: 50%;
+        font-weight: bolder;
+        
+    }
+
+    .header{
+        width: 100%;
+        height: 10vh;
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        align-items: center;
+        
+        
+    }
+
+    footer{
+        width: 90%;
+        margin-left: 5%;
+        height: 30vh;
+        display: flex;
+        flex-direction: column;
+        justify-items: center;
+        justify-content: space-between;
+        border-top:solid 2px gray;
+        padding: 0px 0px;
+        /* background-color: yellow; */
+    }
+
+    .social__media{
+        
+        justify-content: center;
+        margin-top: 1rem;
+    }
+    .Phone__contact{
+        display: flex;
+        flex-direction: column;
+        
+        align-items: center;
+        /* background-color: orangered; */
+    }
+    .email{
+        display: flex;
+        flex-direction: column-reverse;
+        text-align: center;
+    }
+
+    .Phone__contact--tel,.follow,.Author{
+        justify-content: center;
+        text-align: center;
+    }
+
+    .centered{
+        display: flex;
+        justify-content: center;
+    }
 }
