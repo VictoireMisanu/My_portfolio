@@ -65,14 +65,13 @@ li, a{
     
 }
 
-.project, #project{
+.project{
     padding: 0px 10px;
 }
 .main_index{
     min-height: 75vh;
     min-width: fit-content;
     display: flex;
-    justify-content: center ;
     flex-direction: row;
     gap: 50px;
     justify-content: center;
@@ -242,25 +241,34 @@ h4{
 
 /*css pour le formulaire de contact*/
 
-#main_contact{
+.main_contact{
+    min-height: 75vh;
+    min-width: fit-content;
     display: flex;
+    flex-direction: row;
     justify-items: center ;
+    align-items: center;
     justify-content: space-between;
-    padding: 10% 5% 20% 15% ;
+    padding: 5% 15%;
+    /* gap: 0px 30px 30px 30px; */
     border-bottom:solid 2px gray;
 }
-#form{
+
+.form{
     display: flex;
     justify-items: center ;
     justify-content: space-between;
-    margin: 0% 20% 0% 0%;
-    padding: 2% 10% 6% 0% ;
+    height: 350px;
+    width: 350px;
+    /* margin: 0% 20% 0% 0%; */
+    /* padding: 2% 10% 6% 0% ; */
 }
-#contacter{
-    margin-left: 30%;
+.contacter{
+    height: 350px;
+    width: 350px;
 
 }
-#form1{
+.form1{
     margin-right: 5%;
 }
 #msg{
@@ -271,7 +279,7 @@ input[type="text"], input[type="email"]{
     border: 2px solid black;
     
 }
-#form1, #form2{
+.form1, .form2{
     display: flex;
     flex-direction: column;
     gap: 1px;
