@@ -318,33 +318,41 @@ input[type="text"], input[type="email"]{
 
 /*css pour le cv*/
 
-#main_cv{
+.main_cv{
     border-bottom:solid 2px gray;
     padding:5% 5%;
     
 }
-#vitae{
+.curiculum_title{
     margin-bottom: 5% ;
 }
-.degree, .diploma, .cnss, .admin, .trainer, .seed{
+.curiculum__degree{
     display: flex;
     align-items:center;
     align-content: space-between;
     
 }
-.diploma, .seed{
-    border-bottom: 2px solid gray;
-    padding-bottom: 5%;
+
+.diploma__degree:hover,
+.professional__experience:hover{
+    border: 2px solid rgba(255,165, 0, 0.5);
+    border-radius: 5px ;
+    padding: 2%;
+    transition: all 0.5s;
 }
-#what1, #what2, #what3, #what4, #what5,#what6, .lg{
+.diploma--work,
+.curiculum__languages {
     width: 50%;
     margin-right: 10%;
     text-align: justify;
 }
-#when1,#when2, #when3, #when4, #when5, #when6{
+.date{
     padding-left: 15%;
 }
-
+.underline{
+    
+    border-bottom : 1px solid black;
+}
 /*css pour le projet*/
 
 #main_project{
