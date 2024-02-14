@@ -80,6 +80,8 @@ li, a{
 .project{
     padding: 0px 10px;
 }
+
+/* index */
 .main_index{
     min-height: 75vh;
     width: 100%;
@@ -378,13 +380,13 @@ input[type="text"], input[type="email"]{
 .project__pic{
     width: 500px;
     height: 300px;
-    margin: 10% 15% 0% 10%;
+    margin-bottom: 10%;
     border: 10px solid rgb(216, 214, 214);
 }
 
 .project--description{
-    margin: 5% 10% 0%;
-    width: 70%;
+    margin: 5% 5%;
+    width: 50%;
     font-size: 1.5rem;
 }
 
@@ -407,18 +409,81 @@ input[type="text"], input[type="email"]{
 }
 /* Petit Téléphone */
 @media screen and (max-width : 428px){
+
+    /* header */
+    .header{
+        width: 100%;
+        /* height: 10vh; */
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        align-items: center;
+        padding: 0%;
+        
+    }
+
+    .header__name{
+        font-size: 1.5rem;
+        font-weight: bolder;
+        margin-top: 10%;
+        
+    }
+    .header__nav{
+    
+        padding: 0;
+        justify-content: center;
+       
+    }
+    /* footer */
+
+    .footer{
+        width: 90%;
+        margin-left: 5%;
+        height: 30vh;
+        display: flex;
+        flex-direction: column;
+        justify-items: center;
+        justify-content: space-between;
+        border-top:solid 2px gray;
+        padding: 0px 0px;
+     
+    }
+
+    .social__media{
+        
+        justify-content: center;
+        margin-top: 1rem;
+        gap: 10%;
+    }
+    .Phone__contact{
+        display: flex;
+        flex-direction: column;
+        
+        align-items: center;
+        
+    }
+    .email{
+        display: flex;
+        flex-direction: column;
+        text-align: center;
+    }
+
+    .Phone__contact--tel,.follow,.Author{
+        justify-content: center;
+        text-align: center;
+    }
+
+    /* index */
+
     .main_index{
-        /* height: 100vh; */
+        
         width: 100%;
         margin-top: 2rem;
         margin-bottom: 20%;
-        /* min-width: fit-content; */
         display: flex;
         flex-direction: column;
         justify-content: center;
         align-items: center;
-        
-        /* background-color: red; */
         
     }
     .profile{
@@ -430,7 +495,7 @@ input[type="text"], input[type="email"]{
         height: 250px;
         border-radius: 50%;
         filter: grayscale(1);
-        /* margin-top: 5%; */
+        
         
     }
 
@@ -465,7 +530,6 @@ input[type="text"], input[type="email"]{
         flex-direction: row;
         gap :10px;
         margin-left: 10%;
-        /* background-color: green; */
         
     }
     
@@ -482,98 +546,69 @@ input[type="text"], input[type="email"]{
         
     }
 
-    .header{
-        width: 100%;
-        /* height: 10vh; */
-        display: flex;
-        flex-direction: column;
-        justify-content: space-between;
-        align-items: center;
-        padding: 0%;
-        
-    }
-
-    .header__name{
-        font-size: 1.5rem;
-        font-weight: bolder;
-        margin-top: 10%;
-        
-    }
-    .header__nav{
-    
-        padding: 0;
-        justify-content: center;
-       
-    }
 
     .btn__cv:hover{
-        background-color:orangered;
+        /* background-color:orangered; */
         width: 100px;
         height: 100px;
-        box-shadow: 1px 5px 5px 5px rgb(112, 3, 3);
+         /*box-shadow: 1px 5px 5px 5px rgb(112, 3, 3);
         border: none;
         transition: all 2s;
-        cursor: pointer;
+        cursor: pointer; */
     }
     .btn__p:hover{
 
         width: 100px;
         height: 100px;
-        box-shadow: 1px 5px 5px 5px rgb(112, 3, 3);
+        /* box-shadow: 1px 5px 5px 5px rgb(112, 3, 3);
         border: none;
         transition: all 2s;
-        cursor: pointer;
+        cursor: pointer; */
     }
     .btn__co:hover{
-        background-color: rgb(11, 21, 161);
+        /* background-color: rgb(11, 21, 161); */
         width: 100px;
         height: 100px;
-        box-shadow: 1px 5px 5px 5px rgb(1, 9, 77);
+        /* box-shadow: 1px 5px 5px 5px rgb(1, 9, 77);
         border: none;
         transition: all 2s;
-        cursor: pointer;
+        cursor: pointer; */
         
     }
-        
-    .footer{
-        width: 90%;
-        margin-left: 5%;
-        height: 30vh;
+    
+    
+    /* Project */
+    .main__project{
         display: flex;
         flex-direction: column;
-        justify-items: center;
-        justify-content: space-between;
-        border-top:solid 2px gray;
-        padding: 0px 0px;
-        /* background-color: yellow; */
-    }
-
-    .social__media{
-        
+        padding: 2% 5% 20% 5% ;
         justify-content: center;
-        margin-top: 1rem;
-        gap: 10%;
-    }
-    .Phone__contact{
-        display: flex;
-        flex-direction: column;
-        
         align-items: center;
-        /* background-color: orangered; */
     }
-    .email{
+    
+    .project__content{
+        
+        flex-direction: column-reverse;
+        border: 2px solid rgba(255,165, 0, 0.5);
+        border-radius: 3%;
+        margin-bottom: 5%;
+        align-items: center;
+    }
+    
+    .project__pic{
         display: flex;
-        flex-direction: column;
-        text-align: center;
+        width: 250px;
+        height: 250px;
+        align-items: center;
+        justify-content: center;
+        margin: 10% 10% 0% 0%;
+        border: 10px solid rgb(216, 214, 214);
+    }
+    
+    .project--description{
+        margin: 5% 10% 0%;
+        width: 70%;
+        font-size: 1.5rem;
     }
 
-    .Phone__contact--tel,.follow,.Author{
-        justify-content: center;
-        text-align: center;
-    }
-
-    /* .centered{
-        display: flex;
-        justify-content: center;
-    } */
 }
