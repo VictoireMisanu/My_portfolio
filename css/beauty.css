@@ -714,6 +714,7 @@ input[type="text"], input[type="email"]{
     }
     .date{
         padding-left: 0;
+        font-size: 1.1rem;
     }
 
 }
