@@ -109,7 +109,7 @@ li, a{
     align-items: center;
     width: 100%;
     flex-direction: row;
-    gap :20px;
+    gap :0px;
     padding:0%
 }
 
@@ -118,8 +118,8 @@ li, a{
     justify-content: center;
     align-items: center;
     color: black;
-    width: 120px;
-    height: 120px;
+    width: 100px;
+    height: 100px;
     border: 1px solid black;
     border-radius: 50%;
     font-weight: bolder;
@@ -132,8 +132,8 @@ li, a{
 }
 .btn__cv:hover{
     background-color:orangered;
-    width: 130px;
-    height: 130px;
+    width: 110px;
+    height: 110px;
     box-shadow: 1px 5px 5px 5px rgb(112, 3, 3);
     border: none;
     transition: all 2s;
@@ -147,8 +147,8 @@ li, a{
 }
 .btn__p:hover{
 
-    width: 130px;
-    height: 130px;
+    width: 110px;
+    height: 110px;
     box-shadow: 1px 5px 5px 5px rgb(112, 3, 3);
     border: none;
     transition: all 2s;
@@ -162,8 +162,8 @@ li, a{
 }
 .btn__co:hover{
     background-color: rgb(11, 21, 161);
-    width: 130px;
-    height: 130px;
+    width: 110px;
+    height: 110px;
     box-shadow: 1px 5px 5px 5px rgb(1, 9, 77);
     border: none;
     transition: all 2s;
@@ -200,26 +200,13 @@ li, a{
     justify-content: space-between;
     border-top:solid 2px gray;
 }
-/* h4{
-    padding-top: 4%;
-    margin-bottom: 2%;
-} */
 
 .Phone__contact{
     display: flex;
     flex-direction: column;
-    /* justify-content: center;
-    align-items: center; */
+
 }
-.register1--email{
-    
-    text-align: center;
-}
-.contacter__mail{
-    display: flex;
-    flex-direction: column;
-    align-content: center;
-}
+
 
 .wa:hover{
     color: green;
@@ -263,45 +250,56 @@ li, a{
     flex-direction: row;
     justify-items: center ;
     align-items: center;
-    justify-content: space-between;
-    /* padding: 0% 20%; */
+    justify-content: center;
+    gap: 20%;
+
     
 }
 
 .register{
     display: flex;
+    flex-direction: column;
     justify-items: center ;
     justify-content: space-between;
-    height: 350px;
-    width: 350px;
+    gap: 40px;
 
+}
+
+.input__div{
+    display: flex;
+    flex-direction: column;
+
+    
+}
+.input__container{
+    display: flex;
+    align-items: center;
+    flex-direction: row;
+    gap: 40px;
+    flex-wrap: wrap;
 }
 .contacter{
     height: 350px;
-    width: 350px;
+    
 
 }
-.register1{
-    margin-right: 5%;
-}
+
 .register1--msg{
     width: 180px;
     height: 100px;
+    border-radius: 5px;
 }
 input[type="text"], input[type="email"]{
+    width: 200px;
     border: 2px solid black;
+    border-radius: 5px;
     
-}
-.register1, .register2{
-    display: flex;
-    flex-direction: column;
-    gap: 1px;
 }
 
 .register2--send{
-    margin: 60px 0px 0px 20px;
-    width: 120px;
-    height: 120px;
+
+    width: 100px;
+    height: 100px;
     font-size: 20px;
     font-weight: bolder;
     background-color: orange;
@@ -603,13 +601,10 @@ input[type="text"], input[type="email"]{
     /* contact*/
 
     .main_contact{
-        width: 70%;
         min-height: 60vh;
         display: flex;
         flex-direction: column;
         justify-items: center ;
-
-        padding-bottom: 170%;
      
         
     }
@@ -618,7 +613,7 @@ input[type="text"], input[type="email"]{
         display: flex;
         flex-direction: column;
         justify-items: center ;
-        
+        padding-bottom: 15%;
     
     }
     .contacter{
@@ -629,13 +624,26 @@ input[type="text"], input[type="email"]{
     }
 
     .register1--msg{
-        width: 20rem;
-        height: 10rem;
+        width: 250px;
+
     }
+    input[type="text"], input[type="email"]{
+        width: 250px;
+    
+        
+    }
+
+    .input__container{
+        flex-direction: column;
+        justify-content: center;
+    }
+
+
     .big{
         border: 2px solid black;
-        width: 20rem;
-        height: 4rem;
+        width: 17rem;
+        height: 2rem;
+        font-size: 1.5rem;
         
     }
     .justify--content{
