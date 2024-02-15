@@ -676,23 +676,15 @@ input[type="text"], input[type="email"]{
     .main_cv{
     display: flex;
     flex-direction: column;
-    padding:5% 5%;
-    font-size: 1.2rem;
-    /* text-align: center; */
+    padding-bottom: 25%;
+    font-size: 1.3rem;
         
     }
-    .curiculum__title{
-        /* margin-bottom: 5% ; */
-    }
-    /* .curiculum__degree{
-        display: flex;
-        align-items:center;
-        align-content: space-between; 
-        
-    } */
+    
     .diploma__degree, .curiculum__degree{
         display: flex;
         flex-direction: column;
+        align-items: normal;
     }
 
     .order--reverse{
@@ -700,18 +692,9 @@ input[type="text"], input[type="email"]{
         flex-direction: column-reverse;
     }
     
-    .diploma__degree:hover,
-    .professional__experience:hover{
-        border: 2px solid rgba(255,165, 0, 0.5);
-        border-radius: 5px ;
-        padding: 2%;
-        transition: all 0.5s;
-    }
     .diploma--work,
     .curiculum__languages {
         width: 100%;
-        /* margin-right: 10%; */
-        /* text-align: justify; */
     }
     .date{
         padding-left: 0;
