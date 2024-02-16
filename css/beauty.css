@@ -33,7 +33,9 @@ body{
     align-items: center;
     
     
+    
 }
+
 .header a{
     display: flex;
     align-items: center;
@@ -607,6 +609,33 @@ input[type="text"], input[type="email"]{
         
     }
 
+    /* Curiculum vitae */
+
+    .main_cv{
+        padding: 0% 5%;
+    }
+    
+    .diploma--work {
+        /* width: 50%; */
+        /* margin-right: 10%; */
+        /* text-align: justify; */
+    }
+    /* .date{
+        padding-left: 15%;
+    } */
+
+    /* .degree__work__description{
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+    } */
+
+    .date{
+        padding: 0%;
+        margin-left: 10%;
+        font-size: 1rem;
+    }
+
     .big{
         border: 2px solid black;
         width: 17rem;
@@ -917,7 +946,7 @@ input[type="text"], input[type="email"]{
     display: flex;
     flex-direction: column;
     padding-bottom: 25%;
-    font-size: 1.3rem;
+    font-size: 1.1rem;
         
     }
     
@@ -937,9 +966,15 @@ input[type="text"], input[type="email"]{
         width: 100%;
     }
 
+    .diploma--work{
+        font-size: 1.1rem;
+        margin-bottom: 5%;
+    }
+
     .degree__work__description{
         display: flex;
         flex-direction: column;
+        
     }
 
     .justified{
