@@ -406,7 +406,135 @@ input[type="text"], input[type="email"]{
 /* Tablette */
 
 @media screen and (max-width : 905px){
+    .footer{
+        width: 90%;
+        margin-left: 5%;
+        height: 30vh;
+        display: flex;
+        flex-direction: column;
+        justify-items: center;
+        justify-content: space-between;
+        border-top:solid 2px gray;
+        padding: 0px 0px;
+     
+    }
+
+    .social__media{
+        
+        justify-content: center;
+        margin-top: 1rem;
+        gap: 2%;
+    }
+    .Phone__contact{
+        display: flex;
+        flex-direction: column;
+        
+        align-items: center;
+        
+    }
+    .email{
+        display: flex;
+        flex-direction: column;
+        text-align: center;
+    }
+
+    .Phone__contact--tel,.follow,.Author{
+        justify-content: center;
+        text-align: center;
+    }
+
+    /* index */
+
+    .main_index{
+        
+        width: 100%;
+        margin-top: 2rem;
+        margin-bottom: 20%;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        
+    }
+    .profile{
+        margin-top: 10%;
+    }
+    .profile_pic{
+        justify-content: center;
+        width: 250px;
+        height: 250px;
+        border-radius: 50%;
+        filter: grayscale(1);
+        
+        
+    }
+
+    .profile_pic:hover{
+        filter: grayscale(0);
+        border: 1px solid black;
+        padding: 2%;
+        border-radius: 50%;
+        transition: all ease-in-out 0.5s;
+    }
+
+    .Personnality{
+        display: flex;
+        flex-direction: column;
+        height: 100%;
+        /* width: 30%; */
+        
+    }
+
+    .Personnality__Description{
+
+        padding: 0px 55px;
+        text-align: center;
+        font-size: 1.3rem;
+    }
+
+    .Personnality__btn{
+        display: flex;
+        justify-items: center;
+        justify-content: space-between;
+        align-items: center;
+        width: 80%;
+        flex-direction: row;
+        gap :10px;
+        margin-left: 10%;
+        
+    }
     
+    .Personnality__btn a{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        color: black;
+        width: 80px;
+        height: 80px;
+        border: 1px solid black;
+        border-radius: 50%;
+        font-weight: bolder;
+        
+    }
+
+
+    .btn__cv:hover{
+
+        width: 100px;
+        height: 100px;
+
+    }
+    .btn__p:hover{
+
+        width: 100px;
+        height: 100px;
+    }
+    .btn__co:hover{
+    
+        width: 100px;
+        height: 100px;
+        
+    }
 }
 /* Téléphone */
 @media screen and (max-width : 768px ){
