@@ -407,23 +407,18 @@ input[type="text"], input[type="email"]{
 
 @media screen and (max-width : 905px){
     .footer{
-        width: 90%;
-        margin-left: 5%;
-        height: 30vh;
         display: flex;
-        flex-direction: column;
+        flex-direction: row;
         justify-items: center;
         justify-content: space-between;
         border-top:solid 2px gray;
-        padding: 0px 0px;
-     
     }
 
     .social__media{
         
         justify-content: center;
         margin-top: 1rem;
-        gap: 2%;
+        gap: 7%;
     }
     .Phone__contact{
         display: flex;
@@ -435,7 +430,7 @@ input[type="text"], input[type="email"]{
     .email{
         display: flex;
         flex-direction: column;
-        text-align: center;
+        /* text-align: center; */
     }
 
     .Phone__contact--tel,.follow,.Author{
@@ -581,6 +576,36 @@ input[type="text"], input[type="email"]{
 
     }
 
+    /* Projet */
+
+    .main__project{
+   
+        padding: 0% 5%;
+    }
+    
+    .project__content{
+        display: flex;
+        justify-content: center;
+        align-content: space-between;
+        align-items: center;
+    }
+    
+    .project__pic{
+        width: 500px;
+        height: 300px;
+        margin-bottom: 10%;
+        padding: 0%;
+        border: 10px solid rgb(216, 214, 214);
+    }
+    
+    .project--description{
+        /* margin: 5% 5%; */
+        width: 40%;
+        padding-bottom: 20%;
+        margin-right: 5%;
+        font-size: 1.2rem;
+        
+    }
 
     .big{
         border: 2px solid black;
