@@ -946,6 +946,7 @@ input[type="text"], input[type="email"]{
 
     .justified{
         text-align: justify;
+        font-size: 1.1rem;
     }
     .date{
         display: flex;
@@ -953,6 +954,7 @@ input[type="text"], input[type="email"]{
         padding-left: 0;
         margin: 0;
         font-size: 1rem;
+        color: rgb(31, 29, 29);
     }
 
 }
