@@ -172,10 +172,6 @@ body{
     
 }
 
-.margin--in{
-    padding: 5px 10px;
-}
-
 .profile_pic{
     display: flex;
     flex-direction: column;
@@ -785,7 +781,6 @@ input[type="text"], input[type="email"]{
         
     }
 
-
     .btn__cv:hover{
 
         width: 100px;
@@ -803,7 +798,9 @@ input[type="text"], input[type="email"]{
         height: 100px;
         
     }
-    
+    .margin--in{
+        padding: 2px 7px;
+    }
     
     /* Project */
     .main__project{
