@@ -31,9 +31,6 @@ body{
     flex-direction: row;
     justify-content: space-between;
     align-items: center;
-    
-    
-    
 }
 
 .header a{
@@ -48,7 +45,6 @@ body{
     display: flex;
     flex-direction: row;
     justify-content: right;
-   
 }
 
 .no--init--style{
@@ -58,6 +54,7 @@ body{
     font-size: 1.2rem;
 }
 
+.link--framed,
 .cv:hover, 
 .project:hover,
 .contact:hover{
@@ -67,20 +64,23 @@ body{
     transition: all 0.3s;
 }
 
-.cv{
+/* .cv{
     border-right: 1px solid black;
-    padding:0px 15px 0px 15px;
+    padding:0px 0px 0px 0px;
 }
 
 .contact{
     border-left: 1px solid black;
+    margin-left: 10px;
+    padding:0px 0px;
     
-    padding:0px 15px;
-    
-}
+} */
 
 .project{
+    border-left:1px solid black;
+    border-right:1px solid black;
     padding: 0px 10px;
+    margin: 0px 10px;
 }
 
 /* index */
@@ -120,37 +120,36 @@ body{
     justify-content: center;
     align-items: center;
     color: black;
-    width: 100px;
-    height: 100px;
+    width: 80px;
+    height: 80px;
     border: 1px solid black;
     border-radius: 50%;
     font-weight: bolder;
     
 }
+
 .btn__cv{
-      background-color:orange;
-    
-    
+    background-color:orange;
 }
+
 .btn__cv:hover{
     background-color:orangered;
-    width: 110px;
-    height: 110px;
+    width: 90px;
+    height: 90px;
     box-shadow: 1px 5px 5px 5px rgb(112, 3, 3);
     border: none;
     transition: all 2s;
     cursor: pointer;
-
-
 }
+
 .btn__p{
     background-color: rgb(192, 13, 13);
     
 }
 .btn__p:hover{
 
-    width: 110px;
-    height: 110px;
+    width: 90px;
+    height: 90px;
     box-shadow: 1px 5px 5px 5px rgb(112, 3, 3);
     border: none;
     transition: all 2s;
@@ -160,17 +159,21 @@ body{
 .btn__co{
     background-color: #80D8DA;
     
-    
 }
+
 .btn__co:hover{
     background-color: rgb(11, 21, 161);
-    width: 110px;
-    height: 110px;
+    width: 90px;
+    height: 90px;
     box-shadow: 1px 5px 5px 5px rgb(1, 9, 77);
     border: none;
     transition: all 2s;
     cursor: pointer;
     
+}
+
+.margin--in{
+    padding: 10px;
 }
 
 .profile_pic{
@@ -319,13 +322,13 @@ input[type="text"], input[type="email"]{
 
 
 }
-.link--framed{
-    margin: left 10px; ;
+/* .link--framed{
+    margin: 0px 10px; ;
     color: orange;
     border: 2px solid orangered;
     border-radius: 10px;
-    background-color: rgba(255,165, 0, 0.5);
-}
+    
+} */
 
 /*css pour le cv*/
 
@@ -814,7 +817,7 @@ input[type="text"], input[type="email"]{
     .project__content{
         
         flex-direction: column-reverse;
-        border: 2px solid rgba(255,165, 0, 0.5);
+        /* border: 2px solid rgba(255,165, 0, 0.5); */
         border-radius: 3%;
         margin-bottom: 5%;
         align-items: center;
