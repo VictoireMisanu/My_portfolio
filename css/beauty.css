@@ -64,17 +64,6 @@ body{
     transition: all 0.3s;
 }
 
-/* .cv{
-    border-right: 1px solid black;
-    padding:0px 0px 0px 0px;
-}
-
-.contact{
-    border-left: 1px solid black;
-    margin-left: 10px;
-    padding:0px 0px;
-    
-} */
 
 .project{
     border-left:1px solid black;
@@ -318,13 +307,6 @@ input[type="text"], input[type="email"]{
 
 
 }
-/* .link--framed{
-    margin: 0px 10px; ;
-    color: orange;
-    border: 2px solid orangered;
-    border-radius: 10px;
-    
-} */
 
 /*css pour le cv*/
 
@@ -339,8 +321,6 @@ input[type="text"], input[type="email"]{
 .curiculum__degree{
     display: flex;
     flex-direction: column;
-    /* align-items:center; */
-    /* align-content: space-between; */
     
 }
 
@@ -361,7 +341,6 @@ input[type="text"], input[type="email"]{
 .curiculum__languages {
     width: 50%;
     margin-right: 10%;
-    /* text-align: justify; */
 }
 .date{
     padding-left: 15%;
@@ -420,16 +399,15 @@ input[type="text"], input[type="email"]{
     .Phone__contact{
         display: flex;
         flex-direction: column;
-        
         align-items: center;
         
     }
     .email{
         display: flex;
         flex-direction: column;
-        /* text-align: center; */
+        
     }
-
+    
     .Phone__contact--tel,.follow,.Author{
         justify-content: center;
         text-align: center;
@@ -554,7 +532,6 @@ input[type="text"], input[type="email"]{
        padding: 0%;
        margin: 0%;
        
-       /* align-items: center; */
 
     }
 
@@ -596,7 +573,6 @@ input[type="text"], input[type="email"]{
     }
     
     .project--description{
-        /* margin: 5% 5%; */
         width: 40%;
         padding-bottom: 20%;
         margin-right: 5%;
