@@ -948,8 +948,11 @@ input[type="text"], input[type="email"]{
         text-align: justify;
     }
     .date{
+        display: flex;
+        justify-items: left;
         padding-left: 0;
-        font-size: 1.1rem;
+        margin: 0;
+        font-size: 1rem;
     }
 
 }
